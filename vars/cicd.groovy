@@ -3,7 +3,7 @@ def gitDownload(repo)
  "https://github.com/IntelliqDevops/${repo}.git"
 }
 
-def buildartifact()
+def buildArtifact()
 {
  sh 'mvn package'
 }
